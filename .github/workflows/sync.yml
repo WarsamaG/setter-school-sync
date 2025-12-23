@@ -20,7 +20,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install -r ssrequirements
+        pip install -r ssrequirements.txt
     
     - name: Run sync
       env:
