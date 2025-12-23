@@ -31,7 +31,7 @@ TABLE_MAPPINGS = {
 
 # ===== Google Sheets config =====
 # MUST match your actual sheet URL exactly (from your screenshot)
-GOOGLE_SHEET_ID = "1U7a6mJu2gX8oBQ_N6eX4nN-p_uYJGNDwZqQC_Ozov0"
+GOOGLE_SHEET_ID = "1U7a6mJu2gX8oBQ_NEoEX4nN-p_uYJGNDwZqQC_Qzov0"
 GOOGLE_CREDENTIALS_FILE = "google_credentials.json"
 
 
@@ -164,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
