@@ -20,7 +20,7 @@ from google.oauth2.service_account import Credentials
 
 # ===== Airtable config =====
 AIRTABLE_API_KEY = os.environ.get("AIRTABLE_API_KEY")
-BASE_ID = "appK9De6dRY4XLJA"
+BASE_ID = "appk9De6dRY4iXLIA"
 
 # Airtable table name OR table id -> Google Sheet tab name
 TABLE_MAPPINGS = {
@@ -164,4 +164,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
