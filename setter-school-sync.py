@@ -16,7 +16,8 @@ TABLES_TO_SYNC = {
 }
 
 # Google Sheets setup
-GOOGLE_SHEET_ID = '1U7a6mJu2gX8oBQ_NEoEX4nN-p_uVJGNDwZgQC_Qzow0'
+GOOGLE_SHEET_ID = '1U7a6mJu2gX8oBQ_N6eX4nN-p_uYJGNDwZqQC_Ozov0'
+
 GOOGLE_CREDENTIALS_JSON = os.environ.get('GOOGLE_CREDENTIALS')
 
 def sync_table_to_sheet(api, base_id, table_name, sheet, worksheet_name):
@@ -105,5 +106,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
