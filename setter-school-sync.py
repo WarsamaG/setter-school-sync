@@ -20,7 +20,7 @@ from google.oauth2.service_account import Credentials
 
 # ===== Airtable config =====
 AIRTABLE_API_KEY = os.environ.get("AIRTABLE_API_KEY")
-BASE_ID = "appK9De6dRY4XLJA"
+BASE_ID = "appk9De6dRY4iXLIA"
 
 # Airtable table name OR table id -> Google Sheet tab name
 TABLE_MAPPINGS = {
@@ -30,7 +30,8 @@ TABLE_MAPPINGS = {
 }
 
 # ===== Google Sheets config =====
-GOOGLE_SHEET_ID = "1U7a6mJu2gX8oBQ_NEoEX4nN-p_uVJGNDwZgQC_Qzow0"
+# MUST match your actual sheet URL exactly (from your screenshot)
+GOOGLE_SHEET_ID = "1U7a6mJu2gX8oBQ_NEoEX4nN-p_uYJGNDwZqQC_Qzov0"
 GOOGLE_CREDENTIALS_FILE = "google_credentials.json"
 
 
